@@ -546,6 +546,23 @@ and the derived files
 }
 %    \end{macrocode}
 %
+% \subsubsection{Package \xpackage{pict2e}}
+% Additions suggested in https://github.com/ho-tex/picture/issues/1
+%    \begin{macrocode}
+\@ifpackageloaded{pict2e}{%
+  \AtBeginDocument{%
+    \picture@redefine\@cbezier{[#1](&2,&3)(&4,&5)(&6,&7)(&8,&9)}%
+  }
+  \picture@redefine\pIIe@arc@@{(#1,#2)&3}
+  \picture@redefine\polyline{(&1,&2)}
+  \picture@redefine\@polyline{(&1,&2)}
+  \picture@redefine\@polygon{(&1,&2)}
+  \picture@redefine\@@polygon{(&1,&2)}
+  \picture@redefine\moveto{(&1,&2)}
+  \picture@redefine\lineto{(&1,&2)}
+  \picture@redefine\curveto{(&1,&2)(&3,&4)(&5,&6)}
+}{}
+%    \end{macrocode}
 % \subsection{Check package loading order}
 %
 %    \begin{macro}{\PC@checkpackage}

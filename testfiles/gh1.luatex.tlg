@@ -1,0 +1,67 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0, direction TLT
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0, direction TLT
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil, direction TLT
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0, direction TLT
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 265.44409fil, direction TLT
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(284.52756+0.0)x345.0, glue set 45.47244fil, direction TLT
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x15.0, direction TLT
+....\hbox(284.52756+0.0)x284.52756, direction TLT
+.....\hbox(284.52756+0.0)x284.52756, glue set - 3.33fil, direction TLT
+......\glue 0.0
+......\hbox(284.52756+0.0)x287.85756, direction TLT
+.......\pdfliteral origin{ q  0.99626401 0 0 0.99626401 0 0 cm 0.39998 w  28.45274 28.45274 m 256.0748 256.0748 l S Q }
+.......\pdfliteral origin{ q  0.99626401 0 0 0.99626401 0 0 cm 0.39998 w  85.35826 256.0748 m 170.71652 256.0748 l 128.0374 199.16928 l 85.35826 256.0748 l S Q }
+.......\pdfliteral origin{ q  0.99626401 0 0 0.99626401 0 0 cm 28.45274 170.71652 m 113.81102 170.71652 l 71.13188 113.81102 l h f Q }
+.......\pdfliteral origin{ q  0.99626401 0 0 0.99626401 0 0 cm 0.39998 w  56.9055 28.45274 m 227.62204 199.16928 l S Q }
+.......\pdfliteral origin{ q  0.99626401 0 0 0.99626401 0 0 cm 0.39998 w  85.35826 28.45274 m 142.26378 113.81102 199.16928 85.35826 227.62204 170.71652 c S Q }
+.......\hbox(0.0+0.0)x0.0, glue set - 241.84842fil, shifted -42.67912, direction TLT
+........\kern241.84842
+........\pdfliteral origin{ q  0.99626401 0 0 0.99626401 0 0 cm 0 0 m 30.17807 30.17807 l 13.51175 46.84439 -13.51175 46.84439 -30.17807 30.17807 c h f Q }
+........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\pdfliteral origin{ q  0.99626401 0 0 0.99626401 0 0 cm 0.39998 w  0 284.52756 m 142.26378 284.52756 142.26378 0 284.52756 0 c S Q }
+.......\hbox(284.52756+0.0)x284.52756, direction TLT
+........\glue -0.39998
+........\vbox(284.52756+0.0)x285.32751, direction TLT
+.........\glue -0.39998
+.........\rule(0.39998+0.0)x*
+.........\hbox(284.52756+0.0)x285.32751, direction TLT
+..........\rule(*+*)x0.39998
+..........\vbox(284.52756+0.0)x284.52756, glue set 142.26378fil, direction TLT
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\hbox(0.0+0.0)x284.52756, glue set 142.26378fil, direction TLT
+............\glue 0.0 plus 1.0fil minus 1.0fil
+............\glue 0.0 plus 1.0fil minus 1.0fil
+...........\glue 0.0 plus 1.0fil minus 1.0fil
+...........\kern0.0
+..........\rule(*+*)x0.39998
+.........\rule(0.39998+0.0)x*
+.........\glue -0.39998
+........\glue -0.39998
+.......\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0, glue set 170.0fil, direction TLT
+...\glue 0.0 plus 1.0fil
+...\TU/lmr/m/n/10 1
+...\glue 0.0 plus 1.0fil
+(gh1.aux)
