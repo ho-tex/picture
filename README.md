@@ -1,6 +1,6 @@
 # picture package for LaTeX
 
-Version: 2020-04-22 v1.6
+Version: 2024-01-11 v1.7
 
 
 There are macro and environment arguments that expect numbers
