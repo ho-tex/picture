@@ -1,0 +1,79 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+(../l3backend-pdftex.def
+File: l3backend-pdftex.def ....-..-.. L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count...
+\l__pdf_internal_box=\box...
+) (v2.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line ....
+LaTeX Font Info:    ... okay on input line ....
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line ....
+LaTeX Font Info:    ... okay on input line ....
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line ....
+LaTeX Font Info:    ... okay on input line ....
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line ....
+LaTeX Font Info:    ... okay on input line ....
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line ....
+LaTeX Font Info:    ... okay on input line ....
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line ....
+LaTeX Font Info:    ... okay on input line ....
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line ....
+LaTeX Font Info:    ... okay on input line ....
+Package picture Warning: The picture package has been disabled as most
+(picture)                of its functionality is now provided by LaTeX directly.
+(picture)                To force the loading of the previous version use
+(picture)                `\usepackage{picture}[=v1]`
+(picture)                or `\usepackage[calc]{picture}`  on input line ....
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0
+....\hbox(0.0+0.0)x345.0
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 521.49156fil
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(28.45274+0.0)x345.0, glue set 286.54726fil
+....\hbox(0.0+0.0)x15.0
+....\hbox(28.45274+0.0)x43.45274
+.....\hbox(28.45274+0.0)x43.45274, glue set 43.45274fil
+......\glue 0.0
+......\hbox(0.0+0.0)x0.0
+.......\hbox(0.0+0.0)x0.0, glue set - 14.22636fil
+........\kern 14.22636
+........\vbox(0.0+0.0)x0.0, glue set - 6.94444fil
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(6.94444+0.0)x0.0, glue set - 52.52788fil
+..........\OT1/cmr/m/n/10 H
+..........\OT1/cmr/m/n/10 e
+..........\OT1/cmr/m/n/10 l
+..........\OT1/cmr/m/n/10 l
+..........\OT1/cmr/m/n/10 o
+..........\glue 3.33333 plus 1.66666 minus 1.11111
+..........\OT1/cmr/m/n/10 W
+..........\kern-0.83334
+..........\OT1/cmr/m/n/10 o
+..........\OT1/cmr/m/n/10 r
+..........\OT1/cmr/m/n/10 l
+..........\OT1/cmr/m/n/10 d
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\kern 0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.55556
+..\hbox(6.44444+0.0)x345.0
+...\hbox(6.44444+0.0)x345.0, glue set 170.0fil
+....\glue 0.0 plus 1.0fil
+....\OT1/cmr/m/n/10 1
+....\glue 0.0 plus 1.0fil
+(v2.aux)

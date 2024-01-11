@@ -1,0 +1,12 @@
+\input{regression-test}
+\documentclass{article}
+\usepackage{picture}
+
+\START
+\begin{document}
+\showoutput
+\begin{picture}(1cm+\parindent, 10mm)
+  \put(5mm, 0){\makebox(0,0)[lb]{Hello World}}%
+\end{picture}
+
+\end{document} 

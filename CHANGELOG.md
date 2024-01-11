@@ -7,6 +7,14 @@ this project uses date-based 'snapshot' version identifiers.
 
 ## [2024-01-11]
 
+Version 2.0
+
+### Changed
+
+* package is disabled unless the calc option or [=v1] is used.
+
+## [2024-01-11]
+
 Version 1.7
 
 ### Fixed
