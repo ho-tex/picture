@@ -1,14 +1,13 @@
 % \iffalse meta-comment
-%
 % File: picture.dtx
-% Version: 2020-04-22 v1.6
+% Version: 2024-01-12 v2.0
 % Info: Dimens for picture macros
 %
 % Copyright (C)
 %    2006-2009 Heiko Oberdiek
-%    2016-2020 Oberdiek Package Support Group
+%    2016-2024 Oberdiek Package Support Group
 %    https://github.com/ho-tex/picture/issues
-%
+% 
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either
 % version 1.3c of this license or (at your option) any later
@@ -18,36 +17,28 @@
 %    https://www.latex-project.org/lppl.txt
 % and version 1.3 or later is part of all distributions of
 % LaTeX version 2005/12/01 or later.
-%
+% 
 % This work has the LPPL maintenance status "maintained".
-%
+% 
 % The Current Maintainers of this work are
 % Heiko Oberdiek and the Oberdiek Package Support Group
 % https://github.com/ho-tex/picture/issues
+% 
+% This file is part of the "bookmark bundle" (The Work in LPPL)
+% and all files in that bundle must be distributed together.
 %
-% This work consists of the main source file picture.dtx
-% and the derived files
-%    picture.sty, picture.pdf, picture.ins, picture.drv,
-%    picture-example.tex.
-%
+% This work consists of the main source file picture.dtx and picture.ins
+% and the derived files picture.sty, picture-2024-01-11.sty, picture.pdf
+% and  picture-example.tex.
+% 
 % Distribution:
 %    CTAN:macros/latex/contrib/picture/picture.dtx
 %    CTAN:macros/latex/contrib/picture/picture.pdf
 %
 % Unpacking:
-%    (a) If picture.ins is present:
-%           tex picture.ins
-%    (b) Without picture.ins:
-%           tex picture.dtx
-%    (c) If you insist on using LaTeX
-%           latex \let\install=y\input{picture.dtx}
-%        (quote the arguments according to the demands of your shell)
+%    tex picture.ins
 %
 % Documentation:
-%    (a) If picture.drv is present:
-%           latex picture.drv
-%    (b) Without picture.drv:
-%           latex picture.dtx; ...
 %    The class ltxdoc loads the configuration file ltxdoc.cfg
 %    if available. Here you can specify further options, e.g.
 %    use A4 as paper format:
@@ -62,102 +53,15 @@
 %
 % Installation:
 %    TDS:tex/latex/picture/picture.sty
+%    TDS:tex/latex/picture/picture-2024-01-11.sty
 %    TDS:doc/latex/picture/picture.pdf
 %    TDS:doc/latex/picture/picture-example.tex
-%    TDS:source/latex/picture/picture.dtx
-%
-%<*ignore>
-\begingroup
-  \catcode123=1 %
-  \catcode125=2 %
-  \def\x{LaTeX2e}%
-\expandafter\endgroup
-\ifcase 0\ifx\install y1\fi\expandafter
-         \ifx\csname processbatchFile\endcsname\relax\else1\fi
-         \ifx\fmtname\x\else 1\fi\relax
-\else\csname fi\endcsname
-%</ignore>
-%<*install>
-\input docstrip.tex
-\Msg{************************************************************************}
-\Msg{* Installation}
-\Msg{* Package: picture 2020-04-22 v1.6 Dimens for picture macros (HO)}
-\Msg{************************************************************************}
-
-\keepsilent
-\askforoverwritefalse
-
-\let\MetaPrefix\relax
-\preamble
-
-This is a generated file.
-
-Project: picture
-Version: 2020-04-22 v1.6
-
-Copyright (C)
-   2006-2009 Heiko Oberdiek
-   2016-2020 Oberdiek Package Support Group
-
-This work may be distributed and/or modified under the
-conditions of the LaTeX Project Public License, either
-version 1.3c of this license or (at your option) any later
-version. This version of this license is in
-   https://www.latex-project.org/lppl/lppl-1-3c.txt
-and the latest version of this license is in
-   https://www.latex-project.org/lppl.txt
-and version 1.3 or later is part of all distributions of
-LaTeX version 2005/12/01 or later.
-
-This work has the LPPL maintenance status "maintained".
-
-The Current Maintainers of this work are
-Heiko Oberdiek and the Oberdiek Package Support Group
-https://github.com/ho-tex/picture/issues
-
-
-This work consists of the main source file picture.dtx
-and the derived files
-   picture.sty, picture.pdf, picture.ins, picture.drv,
-   picture-example.tex.
-
-\endpreamble
-\let\MetaPrefix\DoubleperCent
-
-\generate{%
-  \file{picture.ins}{\from{picture.dtx}{install}}%
-  \file{picture.drv}{\from{picture.dtx}{driver}}%
-  \usedir{tex/latex/picture}%
-  \file{picture.sty}{\from{picture.dtx}{package}}%
-  \usedir{doc/latex/picture}%
-  \file{picture-example.tex}{\from{picture.dtx}{example}}%
-}
-
-\catcode32=13\relax% active space
-\let =\space%
-\Msg{************************************************************************}
-\Msg{*}
-\Msg{* To finish the installation you have to move the following}
-\Msg{* file into a directory searched by TeX:}
-\Msg{*}
-\Msg{*     picture.sty}
-\Msg{*}
-\Msg{* To produce the documentation run the file `picture.drv'}
-\Msg{* through LaTeX.}
-\Msg{*}
-\Msg{* Happy TeXing!}
-\Msg{*}
-\Msg{************************************************************************}
-
-\endbatchfile
-%</install>
-%<*ignore>
-\fi
-%</ignore>
+%    TDS:source/latex/picture/picture.dtx  
+% \fi
+% 
+% \iffalse        
 %<*driver>
-\NeedsTeXFormat{LaTeX2e}
-\ProvidesFile{picture.drv}%
-  [2020-04-22 v1.6 Dimens for picture macros (HO)]%
+\NeedsTeXFormat{LaTeX2e}[2020/10/01]
 \documentclass{ltxdoc}
 \usepackage{holtxdoc}[2011/11/22]
 \begin{document}
@@ -166,12 +70,8 @@ and the derived files
 %</driver>
 % \fi
 %
-%
-%
-% \GetFileInfo{picture.drv}
-%
 % \title{The \xpackage{picture} package}
-% \date{2020-04-22 v1.6}
+% \date{2024-01-12 v2.0}
 % \author{Heiko Oberdiek\thanks
 % {Please report any issues at \url{https://github.com/ho-tex/picture/issues}}}
 %
@@ -185,8 +85,32 @@ and the derived files
 % \end{abstract}
 %
 % \tableofcontents
-%
-% \section{User interface}
+% \section{Change in version 2.0}
+% 
+% Most of the functionality of this package is no longer needed, as
+% the \LaTeX~definitions provides support for dimensions in the arguments
+% of |picture| and macros such as \cs{put}, \cs{line}, \cs{vector} out of 
+% the box. The exception is the support for the syntax of the \xpackage{calc}
+% package. Input like |\put(0,\widthof{text})| will \emph{not} work with
+% the kernel commands. 
+% 
+% Starting with version 2 this package is disabled by default and does nothing.
+% If support for the \xpackage{calc} is wanted, the loading of the previous 
+% version of the \xpackage{picture} can be forced with any of the following 
+% variants:
+% 
+% \begin{verbatim}
+% \usepackage{picture}[=v1]
+% \usepackage[calc]{picture}[=v1]
+% \usepackage[calc]{picture}
+% \end{verbatim}
+% 
+% The last option can also be used if the \xpackage{picture} has 
+% already been loaded without or without some other option. 
+% There will be no option clash error and the package will revert to the old
+% behaviour.
+% 
+% \section{User interface of version 1.7}
 %
 % \subsection{Introduction}
 %
@@ -261,14 +185,63 @@ and the derived files
 % }
 %
 % \section{Implementation}
-%
 % \subsection{Identification}
-%
 %    \begin{macrocode}
 %<*package>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{picture}%
-  [2020-04-22 v1.6 Dimens for picture macros (HO)]%
+  [2024-01-12 v2 Dimens for picture macros (HO)]%
+%    \end{macrocode}
+%
+% \subsection{Release handling}
+%    \begin{macrocode}
+\providecommand\DeclareRelease[3]{}
+\providecommand\DeclareCurrentRelease[2]{}
+\DeclareRelease{v1}{0000-00-00}{picture-2024-01-11.sty}
+\DeclareCurrentRelease{}{2024-01-11}
+%    \end{macrocode}
+%
+% \subsection{Option}
+%    \begin{macrocode}
+\def\Pc@calcname{calc}
+\def\Pc@load@frozen@version
+ {
+   \RequirePackage{calc}%
+   \RequirePackage[calc]{picture-2024-01-11}%   
+ }
+\DeclareKeys
+ {
+   calc .code:n = \Pc@load@frozen@version,
+   calc .usage:n= preamble,
+   plain.code:n={},
+   etex .code:n={}
+ } 
+ 
+\ProcessKeyOptions
+\AtBeginDocument{
+\ifx\Pc@method\Pc@calcname
+\else 
+ {
+   \PackageWarning{picture}
+     {The picture package has been disabled as most\MessageBreak
+      of its functionality is now provided by LaTeX directly.\MessageBreak
+      To force the loading of the previous version use\MessageBreak
+      `\string\usepackage\string{picture\string}[=v1]`\MessageBreak
+      or 
+      `\string\usepackage[calc]\string{picture\string}`
+      }
+     {} 
+ }
+\fi}
+%    \end{macrocode}
+%</package>
+% 
+% \subsection{Identification of version 1}
+%    \begin{macrocode}
+%<*packagev1>
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{picture-2024-01-11}%
+  [2024/01/11 version1.7 Dimens for picture macros (HO)]%
 %    \end{macrocode}
 %
 % \subsection{Options}
@@ -408,7 +381,7 @@ and the derived files
   \else
     \expandafter\endgroup
     \expandafter\Pc@addtoks\expandafter{%
-      \expandafter{\the\dimen@\@gobble}%
+      \expandafter{\the\dimen@}%
     }%
   \fi
 }
@@ -590,7 +563,7 @@ and the derived files
 %    \end{macrocode}
 %
 %    \begin{macrocode}
-%</package>
+%</packagev1>
 %    \end{macrocode}
 %
 % \section{Installation}
@@ -604,32 +577,9 @@ and the derived files
 % \item[\CTAN{macros/latex/contrib/picture/picture.pdf}] Documentation.
 % \end{description}
 %
-%
-% \paragraph{Bundle.} All the packages of the bundle `picture'
-% are also available in a TDS compliant ZIP archive. There
-% the packages are already unpacked and the documentation files
-% are generated. The files and directories obey the TDS standard.
-% \begin{description}
-% \item[\CTANinstall{install/macros/latex/contrib/picture.tds.zip}]
-% \end{description}
-% \emph{TDS} refers to the standard ``A Directory Structure
-% for \TeX\ Files'' (\CTANpkg{tds}). Directories
-% with \xfile{texmf} in their name are usually organized this way.
-%
-% \subsection{Bundle installation}
-%
-% \paragraph{Unpacking.} Unpack the \xfile{picture.tds.zip} in the
-% TDS tree (also known as \xfile{texmf} tree) of your choice.
-% Example (linux):
-% \begin{quote}
-%   |unzip picture.tds.zip -d ~/texmf|
-% \end{quote}
-%
 % \subsection{Package installation}
 %
-% \paragraph{Unpacking.} The \xfile{.dtx} file is a self-extracting
-% \docstrip\ archive. The files are extracted by running the
-% \xfile{.dtx} through \plainTeX:
+% \paragraph{Unpacking.} Run tex or latex on the \xfile{.ins} 
 % \begin{quote}
 %   \verb|tex picture.dtx|
 % \end{quote}
@@ -641,6 +591,7 @@ and the derived files
 % \def\t{^^A
 % \begin{tabular}{@{}>{\ttfamily}l@{ $\rightarrow$ }>{\ttfamily}l@{}}
 %   picture.sty & tex/latex/picture/picture.sty\\
+%   picture-2024-01-11.sty & tex/latex/picture/picture-2024-01-11.sty\\
 %   picture.pdf & doc/latex/picture/picture.pdf\\
 %   picture-example.tex & doc/latex/picture/picture-example.tex\\
 %   picture.dtx & source/latex/picture/picture.dtx\\
@@ -716,26 +667,8 @@ and the derived files
 % these. For example, \TeX\,Live\ users run \verb|texhash| or
 % \verb|mktexlsr|.
 %
-% \subsection{Some details for the interested}
-%
-% \paragraph{Unpacking with \LaTeX.}
-% The \xfile{.dtx} chooses its action depending on the format:
-% \begin{description}
-% \item[\plainTeX:] Run \docstrip\ and extract the files.
-% \item[\LaTeX:] Generate the documentation.
-% \end{description}
-% If you insist on using \LaTeX\ for \docstrip\ (really,
-% \docstrip\ does not need \LaTeX), then inform the autodetect routine
-% about your intention:
-% \begin{quote}
-%   \verb|latex \let\install=y\input{picture.dtx}|
-% \end{quote}
-% Do not forget to quote the argument according to the demands
-% of your shell.
-%
 % \paragraph{Generating the documentation.}
-% You can use both the \xfile{.dtx} or the \xfile{.drv} to generate
-% the documentation. The process can be configured by the
+% You can use the \xfile{.dtx}. The process can be configured by the
 % configuration file \xfile{ltxdoc.cfg}. For instance, put this
 % line into this file, if you want to have A4 as paper format:
 % \begin{quote}
@@ -783,6 +716,12 @@ and the derived files
 %   \end{Version}
 %   \begin{Version}{2020-04-22 v1.6}
 %   \item Added definitions for pict2e (https://github.com/ho-tex/picture/issues/1)
+%   \end{Version}
+%   \begin{Version}{2024-01-11 v1.7}
+%   \item Remove a now unneeded \verb|\@gobble|, require LaTex 2020-10-01 (https://github.com/ho-tex/picture/issues/2)
+%   \end{Version}
+%   \begin{Version}{2024-01-12 v2.0}
+%   \item Package is disabled unless the calc option is required.
 %   \end{Version}
 % \end{History}
 %

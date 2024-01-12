@@ -1,0 +1,71 @@
+This is a generated file for the l3build validation system.
+Don't change this file in any respect.
+Completed box being shipped out [1]
+\vbox(633.0+0.0)x407.0, direction TLT
+.\glue 16.0
+.\vbox(617.0+0.0)x345.0, shifted 62.0, direction TLT
+..\vbox(12.0+0.0)x345.0, glue set 12.0fil, direction TLT
+...\glue 0.0 plus 1.0fil
+...\hbox(0.0+0.0)x345.0, direction TLT
+....\hbox(0.0+0.0)x345.0, direction TLT
+..\glue 25.0
+..\glue(\lineskip) 0.0
+..\vbox(550.0+0.0)x345.0, glue set 521.49158fil, direction TLT
+...\write-{}
+...\glue(\topskip) 0.0
+...\hbox(28.45274+0.0)x345.0, glue set 277.46002fil, direction TLT
+....\localpar
+.....\localinterlinepenalty=0
+.....\localbrokenpenalty=0
+.....\localleftbox=null
+.....\localrightbox=null
+....\hbox(0.0+0.0)x15.0, direction TLT
+....\hbox(28.45274+0.0)x52.54, direction TLT
+.....\hbox(28.45274+0.0)x52.54, glue set 52.54fil, direction TLT
+......\glue 0.0
+......\hbox(28.45274+0.0)x0.0, direction TLT
+.......\hbox(0.0+0.0)x0.0, direction TLT
+........\kern0.0
+........\vbox(0.0+0.0)x0.0, glue set - 7.16fil, direction TLT
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\hbox(6.94+0.22)x0.0, glue set - 52.54fil, direction TLT
+..........\TU/lmr/m/n/10 H
+..........\TU/lmr/m/n/10 e
+..........\TU/lmr/m/n/10 l
+..........\TU/lmr/m/n/10 l
+..........\TU/lmr/m/n/10 o
+..........\glue(\spaceskip) 3.33 plus 1.665 minus 1.11
+..........\TU/lmr/m/n/10 W
+..........\kern-0.83 (font)
+..........\TU/lmr/m/n/10 o
+..........\TU/lmr/m/n/10 r
+..........\TU/lmr/m/n/10 l
+..........\TU/lmr/m/n/10 d
+..........\glue 0.0 plus 1.0fil minus 1.0fil
+.........\kern0.0
+........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\hbox(0.19998+0.19998)x0.0, glue set - 52.54fil, shifted -9.94, direction TLT
+........\kern0.0
+........\rule(0.19998+0.19998)x52.54
+........\glue 0.0 plus 1.0fil minus 1.0fil
+.......\hbox(0.0+28.45274)x0.0, glue set - 52.54fil, shifted -28.45274, direction TLT
+........\kern52.54
+........\hbox(0.0+28.45274)x0.0, glue set - 0.2fil, direction TLT
+.........\glue -0.19998
+.........\rule(0.0+28.45274)x0.39998
+.........\glue 0.0 plus 1.0fil minus 1.0fil
+........\glue 0.0 plus 1.0fil minus 1.0fil
+......\glue 0.0 plus 1.0fil minus 1.0fil
+....\penalty 10000
+....\glue(\parfillskip) 0.0 plus 1.0fil
+....\glue(\rightskip) 0.0
+...\glue 0.0 plus 1.0fil
+...\glue 0.0
+...\glue 0.0 plus 0.0001fil
+..\glue(\baselineskip) 23.34
+..\hbox(6.66+0.0)x345.0, direction TLT
+...\hbox(6.66+0.0)x345.0, glue set 170.0fil, direction TLT
+....\glue 0.0 plus 1.0fil
+....\TU/lmr/m/n/10 1
+....\glue 0.0 plus 1.0fil
+(v2-calc.aux)
