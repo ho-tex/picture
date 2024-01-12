@@ -9,4 +9,4 @@
   \put(5mm, 0){\makebox(0,0)[lb]{Hello World}}%
 \end{picture}
 
-\end{document} 
+\end{document}
