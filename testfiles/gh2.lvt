@@ -1,0 +1,11 @@
+\input{regression-test}
+\documentclass{article}
+\usepackage{curve2e}
+\usepackage{picture}
+
+\begin{document}\START\showoutput
+\begin{picture}(1,1)
+\put(1cm,1cm){blub}
+\end{picture}
+
+\end{document}

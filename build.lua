@@ -11,8 +11,6 @@ installfiles = {
 
 
 textfiles = {"README.md"}
-unpackfiles = {'picture.dtx'}
-
 packtdszip  = false
 
 maxprintline=10000
@@ -23,9 +21,11 @@ tdslocations={
 "doc/latex/picture/picture.pdf",
 "source/latex/picture/picture.dtx",
 "tex/latex/picture/picture.sty",
+"tex/latex/picture/picture-2024-01-11.sty",
 }
 
 function update_tag(file,content,tagname,tagdate)
+
 
 local tagpattern="(%d%d%d%d[-/]%d%d[-/]%d%d) v(%d+[.])(%d+)"
 local oldv,newv
