@@ -5,7 +5,7 @@ All notable changes to the `picture` package since the
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 this project uses date-based 'snapshot' version identifiers.
 
-## [2024-01-12]
+## [2026-03-07]
 
 Version 2.0
 

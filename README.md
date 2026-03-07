@@ -1,6 +1,6 @@
 # picture package for LaTeX
 
-Version: 2024-01-12 v2.0
+Version: 2026-03-07 v2.0
 
 
 There are macro and environment arguments that expect numbers
@@ -15,7 +15,7 @@ loading the package with the option `calc`.
 
 ## Copyright (C)
 * 2006-2009  Heiko Oberdiek
-* 2016-2024        Oberdiek Package Support Group
+* 2016-2026        Oberdiek Package Support Group
 
 ## License
 LATEX Project Public License, version 1.3c or later.
